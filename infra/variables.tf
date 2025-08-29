@@ -1,4 +1,7 @@
-variable "region"  { type = string  default = "us-east-1" }
+variable "region"  { 
+    type = string  
+    default = "us-east-1" 
+}
 
 # bucket de chegada dos arquivos
 variable "incoming_bucket_name" {
